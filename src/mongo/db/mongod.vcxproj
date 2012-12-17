@@ -1619,6 +1619,7 @@ cscript //Nologo "$(ProjectDir)..\shell\createCPPfromJavaScriptFiles.js" "$(Proj
     <None Include="..\util\mongoutils\README" />
     <None Include="auth\action_types.txt" />
     <None Include="auth\generate_action_types.py" />
+    <None Include="bson.cd" />
     <None Include="mongo.ico" />
   </ItemGroup>
   <ItemGroup>

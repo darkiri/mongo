@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="to JSON">
+    <Position X="24.438" Y="2.126" Height="0.364" Width="1.7" />
+  </Comment>
+  <Comment CommentText="$gt, $gte, $lt, $lte, $ne, $nin, $size">
+    <Position X="26.244" Y="2.762" Height="0.761" Width="1.7" />
+  </Comment>
+  <Comment CommentText="BSONElement::jsonString">
+    <Position X="26.241" Y="3.837" Height="0.525" Width="1.7" />
+  </Comment>
+  <Comment CommentText="???">
+    <Position X="7.858" Y="6.273" Height="0.299" Width="0.7" />
+  </Comment>
+  <Comment CommentText="comparison using BSONElement::woCompare">
+    <Position X="27" Y="9.75" Height="0.75" Width="2.097" />
+  </Comment>
+  <Comment CommentText="How does it work?">
+    <Position X="23.947" Y="0.75" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="mongo::BSONBuilderBase" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIMAAAAAAAAAIAAAAASACAAAAAAAAAQAAAEAAQAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bson_builder_base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::BSONFieldValue&lt;T&gt;" Collapsed="true">
+    <Position X="22" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAgAAAgAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bson_field.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::BSONField&lt;T&gt;" Collapsed="true">
+    <Position X="22" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAAEAAgEAAAAAAEAQAABAIIAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bson_field.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::OpTime" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AqAACBAAACAgAAgIAAEAJQAEABAAAAIAIgAgCAAAAgI=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\util\optime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::BSONObj" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="mongo::BSONObj::Holder" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Projects\mongo\src\mongo\bson\bsonobj.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="mongo::BSONObj::__unnamed_enum_0023_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Projects\mongo\src\mongo\bson\bsonobj.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="mongo::BSONObj::MatchType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Projects\mongo\src\mongo\bson\bsonobj.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="mongo::BSONObj::iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Projects\mongo\src\mongo\bson\bsonobj.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>A6GABCAKADSkjImCIAATZSAQGgeEAAJAACQ5AQAgRgQ=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonobj.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::BSONElement" Collapsed="true">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBDQYEwIkChTJEgYuYkFZCAsAPDAGBBEAM5SQgILaQ=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonelement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::BSONObjBuilder" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BKsUAACAQAEiJIAEKBGAKMgMGBkEQQQAAEEcgQBACHA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonobjbuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::LexNumCmp" Collapsed="true">
+    <Position X="26.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAQAEAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\util\stringutils.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::Labeler">
+    <Position X="24.5" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="mongo::Labeler::Label" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQACAAAABIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::BSONObjBuilderValueStream" Collapsed="true">
+    <Position X="22" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAQAAAAAAAAAAAICAAAAAAAAIBAYFACAAAAAACAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::BSONSizeTracker" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABARAAAAQAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::BSONArrayBuilder" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKMAACABQAAAIAAAAADAKAAAiAAABAQAAAkAAQAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonobjbuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::Ordering" Collapsed="true">
+    <Position X="27.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAAAAAAAAAAAEgAAAAQAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\ordering.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::OID" Collapsed="true">
+    <Position X="17.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oEAQQAIAAAAggIAAAQAARQAAgAAAIGIAAACgAAQAQAQ=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\oid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::StackAllocator" Collapsed="true">
+    <Position X="22.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAI=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\util\builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::_BufBuilder&lt;Allocator&gt;" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAGAIAAAQBACIiAAAAAAAAAgAAABACwAADAACA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\util\builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::mutablebson::Document" Collapsed="true">
+    <Position X="17.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAAREIQEAACAAEkAAAgAAgKAIAjADgAAAIAEYA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\mutable\mutable_bson.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::mutablebson::Heap" Collapsed="true">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAQAIAAAAAAAEAAIAAAAAAAQAAAAAAgAAAAAABAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\mutable\mutable_bson_heap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::mutablebson::SiblingIterator" Collapsed="true">
+    <Position X="14.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAQAAAAAAAQBAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\mutable\mutable_bson.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::mutablebson::Element" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IorVJHOIgEGINEbMQh4IStgAwYhFakCwIAAAKCAkClA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\mutable\mutable_bson.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::mutablebson::Iterator" Collapsed="true">
+    <Position X="14.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAQIAAAAAAQAIAQAAAAEAACAAAAAAgAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\mutable\mutable_bson.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::mutablebson::ElementBuilder" Collapsed="true">
+    <Position X="13.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\mutable\mutable_bson_builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::mutablebson::BSONBuilder" Collapsed="true">
+    <Position X="15.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\mutable\mutable_bson_builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::mutablebson::BasicHeap" Collapsed="true">
+    <Position X="15.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAQAAAAIAAAAECAIAAAAAAAQAAIAAAhAAAAAABEA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\mutable\mutable_bson_heap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mongo::mutablebson::BSONObjHeap" Collapsed="true">
+    <Position X="17.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIAQAAAAAAAAAGCAIAAAAAAAQAAAAAChAAAAAABEA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\mutable\mutable_bson_heap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="mongo::GENOIDLabeler" Collapsed="true">
+    <Position X="25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::DateNowLabeler" Collapsed="true">
+    <Position X="25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::NullLabeler" Collapsed="true">
+    <Position X="25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::UndefinedLabeler" Collapsed="true">
+    <Position X="25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::MinKeyLabeler" Collapsed="true">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::MaxKeyLabeler" Collapsed="true">
+    <Position X="25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::BSONSymbol" Collapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::BSONCode" Collapsed="true">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::BSONCodeWScope" Collapsed="true">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::BSONRegEx" Collapsed="true">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAQ=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::BSONBinData" Collapsed="true">
+    <Position X="7.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAEAAAAAAAAABAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::BSONArray" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonobj.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mongo::mutablebson::ElementRep" Collapsed="true">
+    <Position X="17.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAQAAAAAAAAQAAJAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\mutable\mutable_bson_internal.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="mongo::BSONObjSet" Collapsed="true">
+    <Position X="24.25" Y="9.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonmisc.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mongo::BSONElementSet" Collapsed="true">
+    <Position X="24.25" Y="10.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonobj.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mongo::BSONElementMSet" Collapsed="true">
+    <Position X="24.25" Y="11" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsonobj.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="mongo::BSONType" Collapsed="true">
+    <Position X="15.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAEBRAKCABxQAAiIAAAAAAAAAADAAAAAAAACCA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsontypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mongo::BinDataType" Collapsed="true">
+    <Position X="9" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAgAAAAAIAAEIAAAAAAAAgAAAAEAAAAAA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\bsontypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mongo::JsonStringFormat" Collapsed="true">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAgAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>C:\Projects\mongo\src\mongo\bson\oid.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -2237,6 +2237,9 @@
     <None Include="..\..\third_party\run_if_newer.js">
       <Filter>third_party</Filter>
     </None>
+    <None Include="bson.cd">
+      <Filter>bson</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="db">
