@@ -154,3 +154,4 @@ src/third_party/js-1.7/jskwgen
 src/mongo/buildinfo.cpp
 buildinfo.cpp
 /.settings/
+_ReSharper.*
